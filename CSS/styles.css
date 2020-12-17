@@ -1,0 +1,196 @@
+.logo {height: 70px;}
+.logo a{
+    font-family: 'Baloo Tammudu Bold';
+    font-size:30px;
+    line-height: 3;
+    height: 70px;
+    color:#fff;
+    display:block;
+}
+.nav_a {
+    font-family: 'Hind Madurai-regular';
+}
+body {
+    font-family: 'Hind Madurai-regular';
+}
+
+.navContainer {
+    max-width: 1150px;
+    margin:0 auto;
+    padding: 0 20px;
+    justify-content:space-between;
+}
+.nav_li {
+    margin:0 25px;
+    font-size:16px;
+    height:70px;
+    line-height:70px;
+    color:#fff;
+    font-weight:500;
+}
+.nav_li:hover {
+    text-decoration:underline;
+}
+
+.pointer_click {
+    cursor: pointer;
+}
+.sign_in_button {
+    font-family: 'Hind Madurai-semibold';
+    font-size:16px;
+}
+
+.Header_container {
+	height: 70px;
+	background: rgb(0 0 0 / 0.2);
+}
+
+/* Background Animation */
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+            animation: gradient 15s ease infinite;
+}
+
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+.f-left {
+    float:left;
+}
+.f-right {
+    float:right;
+}
+
+.d-flex {
+    display:flex;
+    height: 100%;
+}
+
+.w-grid {
+    margin-top: 78px;
+    padding-top: 30px;
+}
+
+.w-grid-container{
+    max-width:1300px;
+    margin:0 auto;
+}
+
+.w-heading-one {
+    font-size: 24px;
+    font-family: 'Hind Madurai-semibold';
+    text-align: center;
+    color: #fff;
+}
+.name-service {
+    font-size:15px;
+    font-family: 'Hind Madurai-semibold';
+    padding-bottom: 5px;
+}
+
+.w-grid1 {
+    margin-top:100px;
+}
+
+.footer_container {
+    margin: 60px auto 30px;
+}
+.footer-texts {
+    color:#fff;
+    text-align: center;
+    font-size:15px;
+    word-break: break-word;
+    line-height: 20px;
+}
+
+.footer-texts2 {
+    margin-top:10px;
+    text-align:center;
+    margin-right:20px;
+    font-family: 'Hind Madurai-semibold';
+    font-size:16px;
+}
+.box {width:33.33%;float: left;display:inline-block;padding: 20px;}
+.card-image {width: auto;max-width:250px;margin: 0 auto;position: relative;}
+    .card-image:before{content: "";
+    display: block;
+    padding-top: 100%;}
+.card-image img {
+    height: auto;
+    vertical-align:middle;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    vertical-align: middle;
+    width: 100%;
+    display: block;
+        top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    }
+    .card-text {max-width: 300px;height: 150px;overflow: hidden;margin:0 auto;}
+    footer:before,footer:after{content:"";display:table;clear:both}
+   .w-grid:before,.w-grid:after{content:"";display:table;clear:both}
+   /* header {position:fixed;;top:0;left:0;right:0} */
+   @media only screen and (max-width:900px){
+   	.paragraph-service {
+    margin-top:20px;
+        display: -webkit-box;
+    line-height: 1.3;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height:80px;
+    -webkit-line-clamp:4;
+    -webkit-box-orient: vertical;
+}
+   	.box {width:50%}
+   }
+        @media only screen and (max-width:600px){
+.w-heading-one {height: 35px;}
+.box{padding:10px;width:100%}
+   }
+.mobilenav {display:none}
+@media only screen and (max-width:1000px){
+    .desknav {display:none}
+    .mobilenav {display:none;position:fixed;top: 0;bottom: 0;right: 0;width:200px;background:#fff;z-index: 9;box-shadow: 0px 0 20px -5px rgb(0 0 0 / 30%);}
+    .mobilenav li {display:block;padding:20px;}
+    .mobilenav ul {margin:20px 0px 0 20px}
+    .hamburger{display: inline-block;width: 30px;height: 30px;float: right;margin: 20px 0;}
+    .bar {display:block;width:30px;border:1px solid #fff;margin-bottom:10px}
+    .hamburger:hover {cursor:pointer}
+    .mobilenav.unleash {display:block}
+    .under_text {font-size:35px;}
+    .under_url {margin-top:45px}
+}
